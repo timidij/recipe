@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: outfit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf)
+}
+@font-face{
+    font-family: young;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+body{
+    /* width: 100vw; */
+    height: 100vh;
+    font-family: outfit;
+    color: var(--Dark_Charcoal);
+    background-color: var(--Eggshell);
+}
+.pics{
+    width: 100%;
+    border-radius: 4px;
+}
+:root{
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark_Raspberry: hsl(332, 51%, 32%);
+
+/* ### Neutral */
+
+    --White: hsl(0, 0%, 100%);
+    --Rose_White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+        --Light_Grey: hsl(30, 18%, 87%);
+    --Wenge_Brown: hsl(30, 10%, 34%);
+    --Dark_Charcoal: hsl(24, 5%, 18%);
+
+}
+
+
+.instruction >h2, .nutrition >h2{
+    font-family: young;
+    color: var(--Nutmeg);
+}
+.instruction >ol >li{
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.ingredient >h2{
+color: var(--Nutmeg);
+}
+.ingredient >ul >li{
+    margin-left: 30px;
+    padding-left: 20px;
+}
+.items{
+    background-color: var(--Eggshell);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.items>h3{
+    color: var(--Dark_Raspberry);
+}
+.items >ul{
+    
+    margin-left: 30px;
+    
+}
+.items > ul > li{
+    margin-top: 10px;
+}
+p{
+    color: var(--Wenge_Brown);
+}
+main{
+    /* height: 100%; */
+    /* width: 100vw; */
+    /* background-color: var(--Wenge_Brown); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    /* margin: auto; */
+    /* padding: 20px; */
+}
+.container{
+    align-content: center;
+    justify-self: center;
+    width: 60%;
+    padding: 40px;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: var(--White);
+}
+.table{
+    /* width: 100%; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* display: flex; */
+    /* padding: 40px; */
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+.calories,.carbs, .protein, .fat{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-self: center;
+
+}
+.table > p{
+    font-size: 2.2em;
+}
+.gram{
+    color: var(--Dark_Raspberry);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.table >div{
+    margin-top: 20px;
+    height: 60px;
+    align-self: center;
+    text-align: center;
+}
+.attribution{
+    margin-top: 20px;
+}
