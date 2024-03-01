@@ -57,7 +57,7 @@ To see how you can add code snippets, see below:
 ### Continued development
 
 I still need to do some adjustment with the margins paddings to match the design
-
+proper fonts needs to be used 
 
 ## Author
 
